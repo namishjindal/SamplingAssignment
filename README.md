@@ -2,7 +2,7 @@
 ## Sampling
 Sampling is a method that allows us to get information about the population based on the statistics from a subset of the population (sample), without having to investigate every individual from the population.
 <br>
-Before exploring different sampling techniques, a crucial preliminary step was taken to address the imbalance in our dataset. Initially, the dataset contained 763 non-fraudulent cases and only 9 fraudulent cases. To rectify this imbalance, an oversampling technique was employed. This involved creating additional instances of the minority class (fraudulent cases) to align more closely with the majority class (non-fraudulent cases). Subsequently, the balanced dataset was stored into a single data frame having shape of 1487 rows and 31 columns.
+Before exploring different sampling techniques, a crucial preliminary step was taken to address the imbalance in our dataset. Initially, the dataset contained 763 non-fraudulent cases and only 9 fraudulent cases. To rectify this imbalance, an oversampling technique was employed. This involved creating additional instances of the minority class (fraudulent cases) to align more closely with the majority class (non-fraudulent cases). Subsequently, the balanced dataset was stored into a single data frame.
 <br>
 Sampling Techniques used:
 - Simple Random Sampling:
@@ -20,7 +20,7 @@ Sampling Techniques used:
 - Bootstrap Sampling:
    The bootstrap sampling technique employs resampling with replacement, allowing for the creation of multiple samples from the original dataset. 
 <br>
-After computing five distinct samples using five different techniques, I applied five models(Random Forest, Gradient Boosting Trees, Naive Bayes, Decision Trees, KNN) to each sample. The accuracies for each model for a sample are summarized in the table below:
+After computing five distinct samples using five different techniques, I applied five models to each sample. The accuracies for each model for a sample are summarized in the table below:
 
 | Sample Technique      | Logistic Regression | SVM       | Naive Bayes      | Decision Trees   | KNN              |
 |-----------------------|---------------------|-----------|------------------|------------------|------------------|
