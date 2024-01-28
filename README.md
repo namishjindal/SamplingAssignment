@@ -32,4 +32,4 @@ After computing five distinct samples using five different techniques, I applied
 
 In above table, each row corresponds to a sampling technique, and each column represent the accuracy achieved by each model applied to the respective sample generated using that respective technique.
 <br>
-### The KNN outperformed all other models when applied to cluster sampling.
+### The KNN outperformed all other models when applied to Cluster Sampling Technique.
